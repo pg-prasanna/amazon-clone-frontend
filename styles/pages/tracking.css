@@ -1,0 +1,65 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.tracking-main{
+  max-width: 850px;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.tracking-orders-link{
+  display: inline-block;
+  margin-bottom: 30px;
+  color: hsl(203,43%,52%);
+  cursor: pointer;
+}
+
+.tracking-orders-link:hover{
+  color: hsl(35,97%,45%);
+}
+
+.tracking-arriving-date{
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.tracking-product-name{
+  margin-bottom: 5px;
+}
+
+.tracking-product-image{
+  height: 150px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.tracking-details-container{
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: larger;
+}
+
+.delivery-progress{
+  margin-top: 15px;
+  height: 25px;
+  width: 100%;
+  border-radius: 20px;
+  border: 1px solid hsl(180, 5%, 84%) ;
+}
+
+.delivery-progress-inner{
+  height: 25px;
+  max-width:100%;
+  background-color: green;
+  border-radius: 20px;
+}
+
+.progress-label-current-status{
+  color: green;
+}
